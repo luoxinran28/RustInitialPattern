@@ -1,1 +1,30 @@
 /target
+**/*.rs.bk
+Cargo.lock
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# Windows
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# IDEs
+.idea/
+*.iml
+
+# Logs
+*.log
+
+# By default, ignore node_modules (if any JS tooling)
+node_modules/
+
+# Misc
+.DS_Store
+*.swp
+*.swo
+
+# Remove backup files
+*~
