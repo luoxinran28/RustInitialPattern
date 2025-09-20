@@ -1,0 +1,20 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    "version": "0.2.0",
+    "configurations": [
+        
+        {
+            "name": "Debug Rust",
+            "type": "lldb",
+            "request": "launch",
+            // 指定编译后的可执行文件路径
+            "program": "${workspaceFolder}/target/debug/RustInitialPattern",
+            "args": [],
+            "cwd": "${workspaceFolder}",
+            "stopAtEntry": false,
+            // 调试前自动编译
+            "preLaunchTask": "cargo build"
+        }
+    ]
+}
